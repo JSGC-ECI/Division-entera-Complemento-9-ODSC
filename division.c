@@ -1,11 +1,28 @@
-bool mayor(int a, int b)
-{
-    return a > b;
-}
+#include <stdio.h>
 
-void convertirACifras(char numeroStr[], int cifras[], int *longitud) {
-    *longitud = strlen(numeroStr); // longitud del número
-    for (int i = 0; i < *longitud; i++) {
-        cifras[i] = numeroStr[i] - '0'; // convertir carácter a dígito
+void main() {
+    int plin;
+    scanf("%d", &plin);
+
+    for (int i = 0; i < plin; i++) {
+        int dividendo, divisor;
+        int cociente = 0, residuo;
+
+        scanf("%d %d", &dividendo, &divisor);
+
+        if (divisor == 0) {
+            printf("Error: División por cero\n");
+            continue;
+        }
+
+        while (dividendo >= divisor) {
+            dividendo -= divisor;
+            cociente++;
+        }
+
+        residuo = dividendo;
+
+        printf("%d\n", cociente);
+        printf("%d\n", residuo);
     }
 }
