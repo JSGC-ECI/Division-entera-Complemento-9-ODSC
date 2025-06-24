@@ -5,15 +5,12 @@ void main() {
     scanf("%d", &plin);
 
     for (int i = 0; i < plin; i++) {
-        int dividendo, divisor;
-        int cociente = 0, residuo;
-
-        scanf("%d %d", &dividendo, &divisor);
-
-        if (divisor == 0) {
-            printf("Error: División por cero\n");
-            continue;
-        }
+        int dividendo;
+        int divisor;
+        int cociente = 0;
+        int residuo;
+        scanf("%d", &dividendo);
+        scanf("%d", &divisor);;
 
         while (dividendo >= divisor) {
             dividendo -= divisor;
