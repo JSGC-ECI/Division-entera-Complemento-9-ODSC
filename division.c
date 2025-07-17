@@ -20,20 +20,11 @@ void complemento9(int s[], int tsus, int tmin, int c9[]) {
 }
 
 int restar(int minuendo, int sustraendo) {
-    int m[10], s[10], c9[10], suma[11];
-    int tmin = 0, tsus = 0;
+    int m[350000], s[350000], c9[350000], suma[350001];
 
-    int temp = minuendo;
-    while (temp > 0) {
-        m[tmin++] = temp % 10;
-        temp /= 10;
-    }
-
-    temp = sustraendo;
-    while (temp > 0) {
-        s[tsus++] = temp % 10;
-        temp /= 10;
-    }
+    int tmin = numAList(minuendo, m);
+    
+    int tsus = numAList(sustraendo, s);
 
     complemento9(s, tsus, tmin, c9);
 
@@ -61,11 +52,13 @@ void main() {
         int divisor;
         int cociente = 0;
         int residuo;
+        
 
         scanf("%d", &dividendo);
         scanf("%d", &divisor);
 
         while (dividendo >= divisor) {
+
             dividendo = restar(dividendo, divisor);
             cociente++;
         }
