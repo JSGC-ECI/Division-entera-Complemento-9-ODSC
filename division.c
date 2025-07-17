@@ -1,11 +1,26 @@
 #include <stdio.h>
 
-int restar_complemento9(int minuendo, int sustraendo) {
-    int m[10];
-    int s[10];
-    int c9[10];
-    int suma[11];
-    
+int numAList(int num, int lista[]) {
+    int tam = 0;
+    while (num > 0) {
+        lista[tam] = num % 10;
+        num /= 10;
+        tam++;
+    }
+    return tam;
+}
+
+void complemento9(int s[], int tsus, int tmin, int c9[]) {
+    for (int i = 0; i < tmin; i++) {
+        if (i < tsus)
+            c9[i] = 9 - s[i];
+        else
+            c9[i] = 9;
+    }
+}
+
+int restar(int minuendo, int sustraendo) {
+    int m[10], s[10], c9[10], suma[11];
     int tmin = 0, tsus = 0;
 
     int temp = minuendo;
@@ -20,10 +35,7 @@ int restar_complemento9(int minuendo, int sustraendo) {
         temp /= 10;
     }
 
-    for (int i = 0; i < tmin; i++) {
-        if (i < tsus) c9[i] = 9 - s[i];
-        else c9[i] = 9;
-    }
+    complemento9(s, tsus, tmin, c9);
 
     int acarreo = 1;
     for (int i = 0; i < tmin; i++) {
@@ -40,7 +52,7 @@ int restar_complemento9(int minuendo, int sustraendo) {
     return resultado;
 }
 
-int main() {
+void main() {
     int plin;
     scanf("%d", &plin);
 
@@ -54,7 +66,7 @@ int main() {
         scanf("%d", &divisor);
 
         while (dividendo >= divisor) {
-            dividendo = restar_complemento9(dividendo, divisor);
+            dividendo = restar(dividendo, divisor);
             cociente++;
         }
 
@@ -63,6 +75,4 @@ int main() {
         printf("%d\n", cociente);
         printf("%d\n", residuo);
     }
-
-    return 0;
 }
