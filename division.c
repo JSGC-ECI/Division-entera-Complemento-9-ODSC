@@ -20,8 +20,6 @@ void quitarCeros(char num[]) {
 
 // Compara dos números como cadenas: 1 si a > b, 0 si iguales, -1 si a < b
 int comparar(char a[], char b[]) {
-    quitarCeros(a);
-    quitarCeros(b);
 
     int la = strlen(a);
     int lb = strlen(b);
@@ -92,7 +90,6 @@ void restarComplemento9(char a[], char b[], char res[]) {
 
     // Siempre hay acarreo porque a >= b, así que quitamos el primer dígito
     strcpy(res, suma + 1);
-    quitarCeros(res);
 }
 
 // División: cociente = a / b, residuo = a % b
@@ -128,7 +125,7 @@ void dividir(char a[], char b[], char cociente[], char residuo[]) {
         strcpy(residuo, parte);
 }
 
-int main() {
+void main() {
     int T;
     char a[MAX], b[MAX], coc[MAX], res[MAX];
     scanf("%d", &T);
@@ -141,5 +138,4 @@ int main() {
         printf("%s\n", coc);
         printf("%s\n", res);
     }
-    return 0;
 }
