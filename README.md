@@ -2,7 +2,7 @@
 
 > ⚠️ Estado: ***EN DESARROLLO*** Versión académica
 
-Programa en lenguaje C que realiza divisiones enteras entre dos números muy grandes (hasta 350,000 dígitos), utilizando aritmética en complemento a 9, sin utilizar directamente operadores de división del lenguaje.
+Se implementa divisiones enteras entre dos números extremadamente grandes (hasta 350,000 dígitos), utilizando aritmética basada en el complemento a 9, sin recurrir a los operadores de división del lenguaje. El complemento a 9 es una técnica usada para restar números de manera más eficiente, transformando la sustracción en una suma con el complemento del sustraendo. La división se realiza mediante restas sucesivas: se resta repetidamente el divisor al dividendo, utilizando el complemento a 9 para cada resta, hasta que el dividendo es menor que el divisor; el número de restas realizadas corresponde al cociente, y el valor restante es el residuo.
 
 ---
 
@@ -46,7 +46,7 @@ Escuela Colombiana de Ingeniería Julio Garavito 
 ## ⚙️ Tecnologías
 
 - Lenguaje: `C`
-- Herramientas: `GCC`, `Makefile` (opcional)
+- Herramientas: `GCC`, `onlinegdb`
 - Dependencias: Ninguna externa (usa solo la biblioteca estándar)
 
 ---
@@ -84,7 +84,7 @@ Ejecuta el programa desde la terminal y proporciona la entrada por consola:
 
 
 > \[!NOTE]
-> La entrada debe contener el número de casos, seguido por pares de líneas: dividendo y divisor.
+> La entrada debe contener el número de casos, seguido por pares de líneas: dividendo y divisor en base 10.
 
 > \[!WARNING]
 > El programa no usa `div` ni `/`. Realiza la división simulando operaciones matemáticas en base al complemento a 9.
@@ -93,7 +93,7 @@ Ejecuta el programa desde la terminal y proporciona la entrada por consola:
 
 ## 🧪 Pruebas
 
-Puedes probar manualmente con:
+Puede probar manualmente con:
 
 ### Ejemplo de entrada:
 
@@ -124,7 +124,7 @@ Puedes probar manualmente con:
 ## 📁 Estructura del Proyecto
 
 ```bash
-📦 division-complemento9
+📦 Division-entera-Complemento-9-ODSC
  ┗ 📜 division.c
 ```
 
