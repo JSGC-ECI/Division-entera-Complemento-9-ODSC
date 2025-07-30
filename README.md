@@ -142,5 +142,3 @@ Puedes probar manualmente con:
 ## 📄 Licencia
 
 Este proyecto está licenciado bajo propósitos académicos y educativos. Puedes consultar el archivo [LICENSE](./LICENSE) para más información.
-
-```
