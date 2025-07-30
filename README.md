@@ -7,8 +7,10 @@ Programa en lenguaje C que realiza divisiones enteras entre dos números muy gra
 ---
 
 ## 👥 Autores
+GERARDO OSPINA HERNANDEZ
 
-- [JUAN SEBASTIÁN GUAYAZÁN CLAVIJO](https://github.com/JSGC-ECI) → <juan.guayazan-c@mail.escuelaing.edu.co>  
+- [JUAN SEBASTIÁN GUAYAZÁN CLAVIJO](https://github.com/JSGC-ECI) → <juan.guayazan-c@mail.escuelaing.edu.co>
+
 Organización de los Sistemas de Cómputo (ISIS ODSC-1 y ODSC-101)      
 Decanatura Ingeniería de Sistemas → Centro de Estudios de Arquitectura Tecnológica y Seguridad     
 Ingeniería de Sistemas    
