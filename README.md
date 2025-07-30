@@ -1,6 +1,6 @@
 # 📌 División en complemento a 9
 
-> ⚠️ Estado: ✅ Finalizado
+> ⚠️ Estado: ***EN DESARROLLO*** Versión académica
 
 Programa en lenguaje C que realiza divisiones enteras entre dos números muy grandes (hasta 350,000 dígitos), utilizando aritmética en complemento a 9, sin utilizar directamente operadores de división del lenguaje.
 
