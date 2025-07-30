@@ -21,16 +21,16 @@ Escuela Colombiana de Ingeniería Julio Garavito 
 
 ## 🧠 Índice
 
-- [📌 Nombre del Proyecto](#-división-en-complemento-a-9)
-- [🚀 Características](#-características)
-- [⚙️ Tecnologías](#️-tecnologías)
-- [📦 Instalación](#-instalación-y-requisitos)
-- [▶️ Uso](#️-uso)
-- [🧪 Pruebas](#-pruebas)
-- [📁 Estructura del Proyecto](#-estructura-del-proyecto)
-- [📌 TODOs / Funcionalidades Futuras](#-todos--funcionalidades-futuras)
-- [👥 Autores](#-autores)
-- [📄 Licencia](#-licencia)
+- 📌 [Nombre del Proyecto](#-división-en-complemento-a-9)
+- 🚀 [Características](#-características)
+- ⚙️ [Tecnologías](#️-tecnologías)
+- 📦 [Instalación](#-instalación-y-requisitos)
+- ▶️ [Uso](#️-uso)
+- 🧪 [Pruebas](#-pruebas)
+- 📁 [Estructura del Proyecto](#-estructura-del-proyecto)
+- 📌 [TODOs / Funcionalidades Futuras](#-todos--funcionalidades-futuras)
+- 👥 [Autores](#-autores)
+- 📄 Licencia](#-licencia)
 
 ---
 
@@ -56,8 +56,8 @@ Escuela Colombiana de Ingeniería Julio Garavito 
 ### Clonar el repositorio
 
 ```bash
-git clone https://github.com/JuanSebastianGuayazanClavijoECI/division-complemento9.git
-cd division-complemento9
+git clone  https://github.com/JSGC-ECI/Division-entera-Complemento-9-ODSC.git
+cd Division-entera-Complemento-9-ODSC
 ````
 
 ### Requisitos
