@@ -9,7 +9,7 @@ Se implementa divisiones enteras entre dos números extremadamente grandes (hast
 ## 👥 Autores
 GERARDO OSPINA HERNANDEZ
 
-- [JUAN SEBASTIÁN GUAYAZÁN CLAVIJO](https://github.com/JSGC-ECI) → <juan.guayazan-c@mail.escuelaing.edu.co>
+- [JUAN SEBASTIÁN GUAYAZÁN CLAVIJO](https://github.com/JSGC-ECI) → [juan.guayazan-c@mail.escuelaing.edu.co](mailto:juan.guayazan-c@mail.escuelaing.edu.co)
 
 Organización de los Sistemas de Cómputo (ISIS ODSC-1 y ODSC-101)      
 Decanatura Ingeniería de Sistemas → Centro de Estudios de Arquitectura Tecnológica y Seguridad     
