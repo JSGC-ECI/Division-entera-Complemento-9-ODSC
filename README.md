@@ -2,7 +2,7 @@
 
 > ⚠️ Estado: ***EN DESARROLLO*** Versión académica
 
-Se implementa divisiones enteras entre dos números extremadamente grandes (hasta 350,000 dígitos), utilizando aritmética basada en el complemento a 9, sin recurrir a los operadores de división del lenguaje. El complemento a 9 es una técnica usada para restar números de manera más eficiente, transformando la sustracción en una suma con el complemento del sustraendo. La división se realiza mediante restas sucesivas: se resta repetidamente el divisor al dividendo, utilizando el complemento a 9 para cada resta, hasta que el dividendo es menor que el divisor; el número de restas realizadas corresponde al cociente, y el valor restante es el residuo.
+Se implementa divisiones enteras entre dos números extremadamente grandes (hasta 350,000 dígitos), sin recurrir a los operadores de división, utilizando aritmética basada en el complemento a 9, técnica usada para restar números de manera más eficiente, transformando la sustracción en una suma con el complemento del sustraendo. La división se realiza mediante restas sucesivas: se resta repetidamente el divisor al dividendo, hasta que el dividendo es menor que el divisor
 
 ---
 
